@@ -25,3 +25,18 @@
     display: flex;
     gap: 3rem;
 }
+
+.f-icons>*{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 480px){
+    .footer{
+    }
+    .f-content{
+        transform: scale(.7);
+        gap: 1.5rem;
+        /* margin-top: 1rem; */
+        
+    }
+}
