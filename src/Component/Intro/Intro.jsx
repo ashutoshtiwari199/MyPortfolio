@@ -44,7 +44,7 @@ const Intro = () => {
             
             <img src={Vector1} alt="" />
             <img src={Vector2} alt="" />
-            <img src={boy} alt="" />
+            <img src={boy} alt="" className='profile' />
             <motion.img 
              initial={{left: '-36%'}}
             whileInView={{left:'-24%'}}

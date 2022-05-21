@@ -28,7 +28,10 @@
 }
 
 .n-list{
-    flex: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex: 10; */
 }
 /* .n-list >ul>li{
     cursor: pointer;
@@ -42,7 +45,7 @@
     /* cursor: pointer; */
 }
 
-.n-list>ul > li:hover{
+ .n-list .nav-items:hover{
     cursor: pointer;
     color: var(--orange);
 }
@@ -50,6 +53,7 @@
 .n-button{
     flex: 2;
     cursor: pointer;
+    /* display: inline; */
 }
 
 @media screen and (max-width: 480px){
