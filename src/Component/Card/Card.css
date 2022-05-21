@@ -43,3 +43,9 @@
 .cards>*{
     position: absolute;
 }
+
+@media screen and (max-width: 480px){
+    .cards{
+        left: 8%;
+    }
+}
