@@ -6,6 +6,7 @@ import Glasses from '../../img/glasses.png'
 import Humble from '../../img/humble.png'
 import Card from '../Card/Card'
 import {motion} from 'framer-motion'
+import cv from '../Services/Ashutosh_RL.pdf'
 
 
 const Services = () => {
@@ -13,6 +14,7 @@ const Services = () => {
   const transition={duration:1, type:'spring'}
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
+  // const cv = './'
 
 
   return (
@@ -28,7 +30,7 @@ const Services = () => {
           corrupti porro amet possimus officiis quod.
         </span>
 
-        <a href="./Ashutosh.pdf" download={true} >
+        <a href={cv} title='Ashutosh' download >
           <button className="button s-button">Download CV</button>
         </a>
         

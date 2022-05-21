@@ -30,7 +30,7 @@ function App() {
       <Services/>
       <Experience/>
       <Works/>
-      <Portfolio/>
+      {/* <Portfolio/> */}
       <Testimonials/>
       <Contact/>
       <Footer/>
